@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza", "Localiza\Localiza.csproj", "{F4163AF4-897A-4B19-A633-0EED26EBBE00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API_LOCALIZA", "API_LOCALIZA", "{F7158F9D-E0D3-402E-8E7A-F11804897DBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{6B5202CB-90BC-4978-B695-B90908B3E49B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Historia", "Historia", "{237AD571-E41D-4300-972A-B2CE6BF42D55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{03BED1B0-8B22-44BA-87B5-0E9589B98DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{260587C8-C6AE-43DD-8814-670080B72701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Historias", "Historias\Historias.csproj", "{91DF6657-F714-4213-BF1C-2473ACBEF17D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{2C6A24CB-41E1-47DB-8527-E168103D71AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4163AF4-897A-4B19-A633-0EED26EBBE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4163AF4-897A-4B19-A633-0EED26EBBE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4163AF4-897A-4B19-A633-0EED26EBBE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4163AF4-897A-4B19-A633-0EED26EBBE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260587C8-C6AE-43DD-8814-670080B72701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260587C8-C6AE-43DD-8814-670080B72701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260587C8-C6AE-43DD-8814-670080B72701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260587C8-C6AE-43DD-8814-670080B72701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DF6657-F714-4213-BF1C-2473ACBEF17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DF6657-F714-4213-BF1C-2473ACBEF17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DF6657-F714-4213-BF1C-2473ACBEF17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DF6657-F714-4213-BF1C-2473ACBEF17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6A24CB-41E1-47DB-8527-E168103D71AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6A24CB-41E1-47DB-8527-E168103D71AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6A24CB-41E1-47DB-8527-E168103D71AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6A24CB-41E1-47DB-8527-E168103D71AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4163AF4-897A-4B19-A633-0EED26EBBE00} = {F7158F9D-E0D3-402E-8E7A-F11804897DBC}
+		{260587C8-C6AE-43DD-8814-670080B72701} = {6B5202CB-90BC-4978-B695-B90908B3E49B}
+		{91DF6657-F714-4213-BF1C-2473ACBEF17D} = {237AD571-E41D-4300-972A-B2CE6BF42D55}
+		{2C6A24CB-41E1-47DB-8527-E168103D71AF} = {03BED1B0-8B22-44BA-87B5-0E9589B98DD4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A12C45B9-B8F7-44D1-AE32-203CFB44710D}
+	EndGlobalSection
+EndGlobal
